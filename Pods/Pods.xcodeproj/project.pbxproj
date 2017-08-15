@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128DF193CA10B321E322DCAF16E3BED3 /* DeeplinkNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C71AF7FA77D161D57CCBBB49C49AFE8 /* DeeplinkNavigator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4754636A85145CD449FCF439FEAA1FFD /* DeeplinkNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569BE14F5903785FAAD70692B06AD3A0 /* DeeplinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64780CD50A43A42CDD99AE8EA6F1E52A /* DeeplinkNavigator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */; };
+		6850DA6A54D9170D751A4DA76B87752B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8A28418209D04EB79F887570BFD449AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		94BC8C64E72AAC9F73445F5EFDB8678A /* UIView+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B2803D60AEA34E5829BA38583F0E68B2 /* Pods-MGRenterActionCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1908E11DD032CDFAC9725FD4C721A1 /* Pods-MGRenterActionCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD5756AD30B7EC05C4E5C87B89A85A1 /* Pods-MGRenterActionCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DF5BD6A4569C5D44B6AD8E3EBDD2D4 /* Pods-MGRenterActionCenter-dummy.m */; };
+		CAA6555F8F8800C312D6EF40899EDE08 /* DeeplinkConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D447A5E1F4340F3B6043FE6503BE0615 /* DeeplinkNavigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE706909FD996A81DB3A0D2FE86630A1 /* DeeplinkMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4F1279438F8F9D6E187692529095B77 /* DeeplinkPushable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6E83E07AC8DB02B5923B19289104460 /* UIViewController+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186A7F735AA232B37AA1C11748C5B2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5756376E3D0F8DA601550A7FA46669;
+			remoteInfo = DeeplinkNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigator.swift; path = Sources/DeeplinkNavigator.swift; sourceTree = "<group>"; };
+		1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkMatcher.swift; path = Sources/DeeplinkMatcher.swift; sourceTree = "<group>"; };
+		127A0C772F446C71ECE5C06C08314251 /* Pods-MGRenterActionCenter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGRenterActionCenter-acknowledgements.plist"; sourceTree = "<group>"; };
+		2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigable.swift; path = Sources/DeeplinkNavigable.swift; sourceTree = "<group>"; };
+		3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeeplinkNavigator.xcconfig; sourceTree = "<group>"; };
+		40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkConvertible.swift; path = Sources/DeeplinkConvertible.swift; sourceTree = "<group>"; };
+		440B8458972C5D7B1CB65D63FF2341EE /* Pods-MGRenterActionCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGRenterActionCenter.release.xcconfig"; sourceTree = "<group>"; };
+		555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigation.swift; path = Sources/DeeplinkNavigation.swift; sourceTree = "<group>"; };
+		5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeeplinkNavigator-dummy.m"; sourceTree = "<group>"; };
+		606E56796DAB681E2E25370A4E543A0C /* DeeplinkNavigator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeeplinkNavigator.modulemap; sourceTree = "<group>"; };
+		639FBE82167F79EBCA952DF130D5A755 /* Pods-MGRenterActionCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGRenterActionCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69DF5BD6A4569C5D44B6AD8E3EBDD2D4 /* Pods-MGRenterActionCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGRenterActionCenter-dummy.m"; sourceTree = "<group>"; };
+		6A0825C387EBCDF5B98A0B37D44C5962 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820ECFAA019FE6A5A1C2B46917FAA437 /* Pods_MGRenterActionCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGRenterActionCenter.framework; path = "Pods-MGRenterActionCenter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8667DACB1C3D2F967666458107128635 /* Pods-MGRenterActionCenter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGRenterActionCenter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeeplinkNavigator.h; path = Sources/DeeplinkNavigator.h; sourceTree = "<group>"; };
+		8D6E4EA489C95F9C6B5CE4F2EA7E2280 /* DeeplinkNavigator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeplinkNavigator-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1908E11DD032CDFAC9725FD4C721A1 /* Pods-MGRenterActionCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGRenterActionCenter-umbrella.h"; sourceTree = "<group>"; };
+		9A1F537D9CF8A9E94F1F06230A9F81E2 /* Pods-MGRenterActionCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MGRenterActionCenter.modulemap"; sourceTree = "<group>"; };
+		A6472A57C94B537CF51AA3E0AC39366D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TopViewController.swift"; path = "Sources/UIViewController+TopViewController.swift"; sourceTree = "<group>"; };
+		B14044DCDEFFFE8F06E266961934424A /* Pods-MGRenterActionCenter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGRenterActionCenter-resources.sh"; sourceTree = "<group>"; };
+		B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+TopViewController.swift"; path = "Sources/UIView+TopViewController.swift"; sourceTree = "<group>"; };
+		BD5E87AC5E2C66B690AB3D6F5C15CDEC /* DeeplinkNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeeplinkNavigator.framework; path = DeeplinkNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeplinkNavigator-umbrella.h"; sourceTree = "<group>"; };
+		DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkPushable.swift; path = Sources/DeeplinkPushable.swift; sourceTree = "<group>"; };
+		F2FC2CA0856584685F3E461CA2F29DE0 /* Pods-MGRenterActionCenter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGRenterActionCenter-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EFAABF82F963ABB2C2921EE12D978D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6850DA6A54D9170D751A4DA76B87752B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8604EA0B6C71D281AEA788A90FB14B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28418209D04EB79F887570BFD449AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D24A5419E00D8453E18A9AFC3F08B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06AFEA7CFC4FBA95E2D9170F7A7B4D60 /* DeeplinkNavigator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		06AFEA7CFC4FBA95E2D9170F7A7B4D60 /* DeeplinkNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */,
+				1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */,
+				2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */,
+				555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */,
+				893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */,
+				0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */,
+				DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */,
+				B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */,
+				A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */,
+				AB65AA86DF090827216C8BCFB3007AA7 /* Support Files */,
+			);
+			name = DeeplinkNavigator;
+			path = DeeplinkNavigator;
+			sourceTree = "<group>";
+		};
+		7249C6582C4DF80E81FC3A8B56073D1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FC1A7CC6884AE70221D2E177BF098 /* Pods-MGRenterActionCenter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00D24A5419E00D8453E18A9AFC3F08B4 /* Pods */,
+				A155DDCDF4EA6C4CE15DC6FAA5F04F63 /* Products */,
+				7249C6582C4DF80E81FC3A8B56073D1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A155DDCDF4EA6C4CE15DC6FAA5F04F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E87AC5E2C66B690AB3D6F5C15CDEC /* DeeplinkNavigator.framework */,
+				820ECFAA019FE6A5A1C2B46917FAA437 /* Pods_MGRenterActionCenter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB65AA86DF090827216C8BCFB3007AA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				606E56796DAB681E2E25370A4E543A0C /* DeeplinkNavigator.modulemap */,
+				3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */,
+				5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */,
+				8D6E4EA489C95F9C6B5CE4F2EA7E2280 /* DeeplinkNavigator-prefix.pch */,
+				D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */,
+				A6472A57C94B537CF51AA3E0AC39366D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeeplinkNavigator";
+			sourceTree = "<group>";
+		};
+		BB6FC1A7CC6884AE70221D2E177BF098 /* Pods-MGRenterActionCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A0825C387EBCDF5B98A0B37D44C5962 /* Info.plist */,
+				9A1F537D9CF8A9E94F1F06230A9F81E2 /* Pods-MGRenterActionCenter.modulemap */,
+				8667DACB1C3D2F967666458107128635 /* Pods-MGRenterActionCenter-acknowledgements.markdown */,
+				127A0C772F446C71ECE5C06C08314251 /* Pods-MGRenterActionCenter-acknowledgements.plist */,
+				69DF5BD6A4569C5D44B6AD8E3EBDD2D4 /* Pods-MGRenterActionCenter-dummy.m */,
+				F2FC2CA0856584685F3E461CA2F29DE0 /* Pods-MGRenterActionCenter-frameworks.sh */,
+				B14044DCDEFFFE8F06E266961934424A /* Pods-MGRenterActionCenter-resources.sh */,
+				9A1908E11DD032CDFAC9725FD4C721A1 /* Pods-MGRenterActionCenter-umbrella.h */,
+				639FBE82167F79EBCA952DF130D5A755 /* Pods-MGRenterActionCenter.debug.xcconfig */,
+				440B8458972C5D7B1CB65D63FF2341EE /* Pods-MGRenterActionCenter.release.xcconfig */,
+			);
+			name = "Pods-MGRenterActionCenter";
+			path = "Target Support Files/Pods-MGRenterActionCenter";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99A800814BA4F6C2AB4796C6E6A377AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71AF7FA77D161D57CCBBB49C49AFE8 /* DeeplinkNavigator-umbrella.h in Headers */,
+				4754636A85145CD449FCF439FEAA1FFD /* DeeplinkNavigator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDED1128FBF640E66D910A37E93CD7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2803D60AEA34E5829BA38583F0E68B2 /* Pods-MGRenterActionCenter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF50DCC3E8B552D976206709A97C4A4 /* Build configuration list for PBXNativeTarget "DeeplinkNavigator" */;
+			buildPhases = (
+				1EF9868C7CBD59DAA28D93AB98C32941 /* Sources */,
+				8604EA0B6C71D281AEA788A90FB14B2F /* Frameworks */,
+				99A800814BA4F6C2AB4796C6E6A377AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeeplinkNavigator;
+			productName = DeeplinkNavigator;
+			productReference = BD5E87AC5E2C66B690AB3D6F5C15CDEC /* DeeplinkNavigator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B01201825873CBC9A78933F49D4CF44F /* Pods-MGRenterActionCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC3505863EF4E7DD6D4D54A2A1933CE /* Build configuration list for PBXNativeTarget "Pods-MGRenterActionCenter" */;
+			buildPhases = (
+				5F33DB434E0C694D2562C094A975756F /* Sources */,
+				60EFAABF82F963ABB2C2921EE12D978D /* Frameworks */,
+				EBDED1128FBF640E66D910A37E93CD7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8F9BC8071D5E568C5D5285C50AD73E /* PBXTargetDependency */,
+			);
+			name = "Pods-MGRenterActionCenter";
+			productName = "Pods-MGRenterActionCenter";
+			productReference = 820ECFAA019FE6A5A1C2B46917FAA437 /* Pods_MGRenterActionCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A155DDCDF4EA6C4CE15DC6FAA5F04F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */,
+				B01201825873CBC9A78933F49D4CF44F /* Pods-MGRenterActionCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF9868C7CBD59DAA28D93AB98C32941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA6555F8F8800C312D6EF40899EDE08 /* DeeplinkConvertible.swift in Sources */,
+				DE706909FD996A81DB3A0D2FE86630A1 /* DeeplinkMatcher.swift in Sources */,
+				D447A5E1F4340F3B6043FE6503BE0615 /* DeeplinkNavigable.swift in Sources */,
+				128DF193CA10B321E322DCAF16E3BED3 /* DeeplinkNavigation.swift in Sources */,
+				64780CD50A43A42CDD99AE8EA6F1E52A /* DeeplinkNavigator-dummy.m in Sources */,
+				569BE14F5903785FAAD70692B06AD3A0 /* DeeplinkNavigator.swift in Sources */,
+				E4F1279438F8F9D6E187692529095B77 /* DeeplinkPushable.swift in Sources */,
+				94BC8C64E72AAC9F73445F5EFDB8678A /* UIView+TopViewController.swift in Sources */,
+				E6E83E07AC8DB02B5923B19289104460 /* UIViewController+TopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33DB434E0C694D2562C094A975756F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD5756AD30B7EC05C4E5C87B89A85A1 /* Pods-MGRenterActionCenter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A8F9BC8071D5E568C5D5285C50AD73E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeeplinkNavigator;
+			target = 1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */;
+			targetProxy = 186A7F735AA232B37AA1C11748C5B2B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123E0404731F62CEAF2B7DE0CACCA126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeplinkNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DeeplinkNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC799A4C80E55B7C596290DD5A27A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeplinkNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DeeplinkNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93E382C9678CDB0FC8865726D1E68E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440B8458972C5D7B1CB65D63FF2341EE /* Pods-MGRenterActionCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGRenterActionCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGRenterActionCenter/Pods-MGRenterActionCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGRenterActionCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A986B6F3DD68CB4D01FD850B5FC4FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639FBE82167F79EBCA952DF130D5A755 /* Pods-MGRenterActionCenter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGRenterActionCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGRenterActionCenter/Pods-MGRenterActionCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGRenterActionCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC3505863EF4E7DD6D4D54A2A1933CE /* Build configuration list for PBXNativeTarget "Pods-MGRenterActionCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986B6F3DD68CB4D01FD850B5FC4FA59 /* Debug */,
+				93E382C9678CDB0FC8865726D1E68E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF50DCC3E8B552D976206709A97C4A4 /* Build configuration list for PBXNativeTarget "DeeplinkNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123E0404731F62CEAF2B7DE0CACCA126 /* Debug */,
+				3FC799A4C80E55B7C596290DD5A27A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
