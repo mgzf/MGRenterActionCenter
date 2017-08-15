@@ -11,7 +11,7 @@ import DeeplinkNavigator
 
 let MogoRenterScheme:String = "MG://app"
 
-let wishUrl = "wishModule"
+let wishUrl = "\(MogoRenterScheme)/wishModule"
 
 open class MGNavigationCenter
 {
