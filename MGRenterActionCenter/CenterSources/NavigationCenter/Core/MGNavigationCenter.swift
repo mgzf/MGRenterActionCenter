@@ -19,7 +19,7 @@ open class MGNavigationCenter
         
         Navigator.scheme = MogoRenterScheme
         
-        MGNavigationCenter.register(for: wishUrl, in: "bundle", for: "Class")
+        MGNavigationCenter.register(for: wishUrl, in: "MGRenterWishModule", for: "WishViewController")
     }
     
     
