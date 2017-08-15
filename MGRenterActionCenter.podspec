@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "0.0.1"
   s.license          = 'MIT License'
   s.summary          = "MGRenterActionCenter"
-  s.description      = "MGRenterActionCenter"
+  s.description      = "MGRenterActionCenterMGRenterActionCenter"
   s.homepage         = "https://github.com/mgzf/MGRenterActionCenter"
 
   s.author           = { "Harly" => "magic_harly@hotmail.com" }
