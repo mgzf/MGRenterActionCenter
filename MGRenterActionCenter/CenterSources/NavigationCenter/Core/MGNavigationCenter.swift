@@ -75,7 +75,7 @@ open class MGNavigationCenter
         
         for (vcName , vcUrl) in registionResult
         {
-            MGNavigationCenter.register(for: vcUrl, in: vcName, for: projectName)
+            MGNavigationCenter.register(for: vcUrl, in: projectName, for: vcName)
         }
     }
     
