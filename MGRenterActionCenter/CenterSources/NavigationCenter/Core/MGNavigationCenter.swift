@@ -9,6 +9,10 @@
 import UIKit
 import DeeplinkNavigator
 
+let MGNavSubStoreName = "NavigationSubStore"
+
+let MGNavRegistionFuncName = "navigationMapping"
+
 let MogoRenterScheme:String = "MG://app"
 
 let wishUrl = "\(MogoRenterScheme)/wishModule"
@@ -19,7 +23,7 @@ open class MGNavigationCenter
         
         Navigator.scheme = MogoRenterScheme
         
-        MGNavigationCenter.register(for: wishUrl, in: "MGRenterWishModule", for: "WishViewController")
+        MGNavigationCenter.register(with: "MGRenterWishModule")
     }
     
     
@@ -42,6 +46,39 @@ open class MGNavigationCenter
     }
     
     
+    /// Register all urls in sub projects
+    ///
+    /// - Parameter projectName: Project Name
+    fileprivate class func register(with projectName : String)
+    {
+        guard let subStoreClass = NSClassFromString("\(projectName).\(MGNavSubStoreName)") as? NSObject.Type
+            
+        else
+        {
+            assert(false , "Project register error : \(projectName) or \(MGNavSubStoreName) cannot be found in your project" )
+            
+            return
+        }
+        
+        let subStore = subStoreClass.init()
+        
+        let registionAction = Selector((MGNavRegistionFuncName))
+        
+        let result = subStore.perform(registionAction).takeRetainedValue()
+        
+        guard let registionResult = result as? [String : String] else {
+            
+            assert(false , "Project registion error with return value \(result)" )
+            return
+            
+        }
+        
+        for (vcName , vcUrl) in registionResult
+        {
+            MGNavigationCenter.register(for: vcUrl, in: vcName, for: projectName)
+        }
+    }
+    
     /// Register using class Name
     ///
     /// - Parameters:
@@ -60,6 +97,7 @@ open class MGNavigationCenter
             assert(false , "Navigation mapping failed *** \(url) in bundle : \(bundleName) and ClassName : \(className)")
         }
     }
+    
 
 }
 
