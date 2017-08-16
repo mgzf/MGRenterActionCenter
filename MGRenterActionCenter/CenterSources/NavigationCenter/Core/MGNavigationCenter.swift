@@ -64,7 +64,7 @@ open class MGNavigationCenter
         
         let registionAction = Selector((MGNavRegistionFuncName))
         
-        let result = subStore.perform(registionAction).takeRetainedValue()
+        let result = subStore.perform(registionAction).takeUnretainedValue()
         
         guard let registionResult = result as? [String : String] else {
             
